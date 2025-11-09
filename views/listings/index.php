@@ -1,7 +1,6 @@
-   <?php
+<?php
    loadPartial('head');
    loadPartial('navbar');
-   loadPartial('showcases');
    loadPartial('topbanner');
    ?>
 
@@ -191,10 +190,6 @@
             </div>
           </div>
         </div>
-        <a href="/listings" class="block text-xl text-center">
-          <i class="fa fa-arrow-alt-circle-right"></i>
-          Show All Jobs
-        </a>
       </section>
     <?php loadpartial('bottombanner');?>
     <?php loadpartial('footer'); ?>

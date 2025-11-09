@@ -1,9 +1,8 @@
 <?php
 require '../helpers.php';
 
-$route = [
-    '/' => 'controllers/home.php',
-    '/listing' => 'controllers/listings/index.php',
-    '/listings/create' => 'controllers/listings/create.php',
-    '404' => 'controllers/error/404.php'
-];
+
+$uri = $_SERVER['REQUEST_URI'];
+$method = $_SERVER['REQUEST_METHOD'];
+
+require base_path('route.php');
